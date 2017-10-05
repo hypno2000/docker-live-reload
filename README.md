@@ -1,3 +1,7 @@
+# Install
+
+`npm install -g docker-live-reload`
+
 # Usage
 
-`docker-live-reload 'paths/to/watch/**/*.ex' my-container-name /base/path/inside/container`
+`docker-live-reload 'local/paths/to/watch/**/*' my-container-name /base/path/inside/container`
