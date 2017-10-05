@@ -1,6 +1,6 @@
 {
   "name": "docker-live-reload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "watches files and copies them to docker container",
   "main": "index.js",
   "scripts": {
