@@ -1,3 +1,5 @@
+Watches local filesystem and copies changed files docker container
+
 # Install
 
 `npm install -g docker-live-reload`
