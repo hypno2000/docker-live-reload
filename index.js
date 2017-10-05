@@ -1,11 +1,13 @@
+#!/usr/bin/env node
+
 const chokidar = require('chokidar');
 const execSync = require('child_process').execSync
 const chalk = require('chalk');
 const path = require('path');
 
-const watchPattern = 'apps/**/lib/**/*.ex';
-const containerName = 'integration_hub';
-const remoteBasePath = '/app';
+const watchPattern = process.argv[2];
+const containerName = process.argv[3];
+const remoteBasePath = process.argv[4];
 
 let containerId;
 
