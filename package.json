@@ -1,0 +1,32 @@
+{
+  "name": "docker-live-reload",
+  "version": "1.0.0",
+  "description": "watches files and copies them to docker container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "docker-live-reload": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hypno2000/docker-live-reload.git"
+  },
+  "keywords": [
+    "docker",
+    "watch",
+    "live",
+    "reload"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hypno2000/docker-live-reload/issues"
+  },
+  "homepage": "https://github.com/hypno2000/docker-live-reload#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "chokidar": "^1.7.0"
+  }
+}
