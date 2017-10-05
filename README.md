@@ -1,4 +1,4 @@
-Watches local filesystem and copies changed files docker container
+Watches local filesystem and copies changed files to docker container
 
 # Install
 
