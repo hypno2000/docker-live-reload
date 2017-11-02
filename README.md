@@ -7,3 +7,6 @@ Watches local filesystem and copies changed files to docker container
 # Usage
 
 `docker-live-reload 'local/paths/to/watch/**/*' my-container-name /base/path/inside/container`
+
+# License
+MIT
